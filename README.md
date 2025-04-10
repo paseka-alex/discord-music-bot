@@ -34,7 +34,7 @@ This is a Discord bot called CyberChmonya that allows you to play music from You
 
 1.  **Install Dependencies:**
     ```bash
-    pip install discord.py yt-dlp spotipy python-dotenv
+    pip install -r requirements.txt
     ```
 
 2.  **Create a `.env` file:**
@@ -61,9 +61,8 @@ This is a Discord bot called CyberChmonya that allows you to play music from You
 5.  **Run the Bot:**
     Navigate to the directory containing your bot script in your terminal and run:
     ```bash
-    python your_bot_script_name.py
+    python script.py
     ```
-    Replace `your_bot_script_name.py` with the actual name of your Python file.
 
 ## Commands
 
